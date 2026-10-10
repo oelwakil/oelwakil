@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Omar 👋
 
-<!--
-**oelwakil/oelwakil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an applied AI scientist with a PhD in Supply Chain & Operations Management and a background spanning MIT, RAND, and MITRE. I build data-driven solutions for supply chain, logistics, and trade problems, from predictive models and risk assessment to optimization and simulation.
 
-Here are some ideas to get you started:
+**Open to:** Principal / Senior Applied Scientist, Data Scientist, Research Scientist, and ML Engineer roles.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I work on
+- **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs)
+- **Forecasting & optimization:** time series, stochastic simulation, heuristic optimization
+- **Generative AI:** LLMs, RAG, agentic workflows
+- **Economics & trade:** econometrics, causal inference, spatial analysis
+
+## Featured project
+**[Used Car Price Prediction](https://github.com/oelwakil/used-car-price-prediction)**: feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanations on Indian used car listings, with a candid write-up of the validation limitations.
+
+## Tools
+Python · pandas · scikit-learn · statsmodels · XGBoost · LightGBM · CatBoost · Optuna · SHAP · TensorFlow/Keras · R · SQL
+
+## Connect
+[LinkedIn](https://linkedin.com/in/oelwakil)
