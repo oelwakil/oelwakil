@@ -7,7 +7,7 @@ I'm an applied AI scientist with a PhD in Supply Chain & Operations Management a
 ## Featured projects
 
 **[Supply Chain Cascade Testbed (GNN)](https://github.com/oelwakil/supply-chain-cascade-gnn)**
-When a shock hits a multi-tier supply network, can a graph neural network predict which entities lose capacity, including those several tiers downstream? A synthetic network and shock simulator compare GraphSAGE and graph attention with direct-exposure baselines on an unseen network: 0.59 average precision for graph attention against 0.18 for a gravity score. Reports where a simple reachability baseline matches the graph models, with seeds, spreads, and stated limitations.
+When a shock hits a multi-tier supply network, can a graph neural network predict which entities lose capacity, including those several tiers downstream? On a synthetic network the models never saw, graph attention reaches 0.59 average precision against 0.18 for a gravity score and 0.04 for a direct-exposure score on indirect effects. The result holds under realistic missing-link patterns and with ensemble-calibrated probabilities. It also reports where a simple reachability count matches the GNNs, in choosing which suppliers to harden.
 
 **[Forecast-then-Optimize Inventory](https://github.com/oelwakil/inventory-forecast-optimization)**
 Does a better demand forecast mean less inventory? LightGBM forecasts for 500 store-item series feed an order-up-to inventory simulation. At a 98% fill rate, the model needs about half the stock of the better simple benchmark. Built with leakage-safe features, a three-way time split, and tests.
