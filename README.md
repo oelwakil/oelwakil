@@ -6,11 +6,11 @@ I'm an applied AI scientist with a PhD in Supply Chain & Operations Management a
 
 ## Featured projects
 
+**[Forecast-then-Optimize Inventory](https://github.com/oelwakil/inventory-forecast-optimization)**
+Does a better demand forecast mean less inventory? LightGBM and a probabilistic PyTorch model forecast 500 store-item series that feed a lost-sales inventory simulation. At a 98% fill rate, LightGBM needs about half the stock of the better simple benchmark. Ordering from the forecast distribution cuts cost about 5% against a classic safety-stock rule, and a PPO reinforcement-learning agent beats a tuned (s, S) policy by 3.5% when orders carry a fixed cost. Built with leakage-safe features, validation-only tuning, bootstrap confidence intervals, and 21 tests.
+
 **[Supply Chain Cascade Testbed (GNN)](https://github.com/oelwakil/supply-chain-cascade-gnn)**
 When a shock hits a multi-tier supply network, can a graph neural network predict which entities lose capacity, including those several tiers downstream? On a synthetic network the models never saw, graph attention reaches 0.59 average precision against 0.18 for a gravity score and 0.04 for a direct-exposure score on indirect effects. The result holds under realistic missing-link patterns and with ensemble-calibrated probabilities. It also reports where a simple reachability count matches the GNNs, in choosing which suppliers to harden.
-
-**[Forecast-then-Optimize Inventory](https://github.com/oelwakil/inventory-forecast-optimization)**
-Does a better demand forecast mean less inventory? LightGBM forecasts for 500 store-item series feed an order-up-to inventory simulation. At a 98% fill rate, the model needs about half the stock of the better simple benchmark. Built with leakage-safe features, a three-way time split, and tests.
 
 **[Used Car Price Prediction](https://github.com/oelwakil/used-car-price-prediction)**
 Feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanations on Indian used car listings (MIT Applied AI & Data Science capstone).
@@ -20,6 +20,8 @@ Feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanat
 - **Forecasting & optimization:** time series, inventory simulation, stochastic and heuristic optimization
 - **Generative AI:** LLMs, RAG, agentic workflows
 - **Economics & trade:** econometrics, causal inference, spatial analysis
+- - **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs), reinforcement learning (PPO)
+- **Forecasting & optimization:** time series, probabilistic forecasting, inventory simulation, stochastic and heuristic optimization
 
 ## Tools
 Python · pandas · scikit-learn · statsmodels · LightGBM · XGBoost · CatBoost · Optuna · SHAP · TensorFlow/Keras · R · SQL
