@@ -22,7 +22,7 @@ Feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanat
 - **Economics & trade:** econometrics, causal inference, spatial analysis
   
 ## Tools
-Python · pandas · scikit-learn · statsmodels · LightGBM · XGBoost · CatBoost · Optuna · SHAP · TensorFlow/Keras · R · SQL
+Python · pandas · scikit-learn · statsmodels · PyTorch · PyTorch Geometric · LightGBM · XGBoost · CatBoost · Optuna · SHAP · TensorFlow/Keras · R · SQL
 
 ## Connect
 [LinkedIn](https://linkedin.com/in/oelwakil)
