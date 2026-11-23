@@ -16,13 +16,11 @@ When a shock hits a multi-tier supply network, can a graph neural network predic
 Feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanations on Indian used car listings (MIT Applied AI & Data Science capstone).
 
 ## What I work on
-- **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs)
-- **Forecasting & optimization:** time series, inventory simulation, stochastic and heuristic optimization
-- **Generative AI:** LLMs, RAG, agentic workflows
-- **Economics & trade:** econometrics, causal inference, spatial analysis
 - **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs), reinforcement learning (PPO)
 - **Forecasting & optimization:** time series, probabilistic forecasting, inventory simulation, stochastic and heuristic optimization
-
+- **Generative AI:** LLMs, RAG, agentic workflows
+- **Economics & trade:** econometrics, causal inference, spatial analysis
+  
 ## Tools
 Python · pandas · scikit-learn · statsmodels · LightGBM · XGBoost · CatBoost · Optuna · SHAP · TensorFlow/Keras · R · SQL
 
