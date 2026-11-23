@@ -20,7 +20,7 @@ Feature engineering, linear vs. boosted models, Optuna tuning, and SHAP explanat
 - **Forecasting & optimization:** time series, inventory simulation, stochastic and heuristic optimization
 - **Generative AI:** LLMs, RAG, agentic workflows
 - **Economics & trade:** econometrics, causal inference, spatial analysis
-- - **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs), reinforcement learning (PPO)
+- **Applied ML:** regression, classification, anomaly detection, clustering, deep learning (ANNs, CNNs, GNNs), reinforcement learning (PPO)
 - **Forecasting & optimization:** time series, probabilistic forecasting, inventory simulation, stochastic and heuristic optimization
 
 ## Tools
